@@ -1,479 +1,5 @@
 {
 	"AWSTemplateFormatVersion": "2010-09-09",
-	"Metadata": {
-		"AWS::CloudFormation::Designer": {
-			"5b164754-24d7-47f6-a6fb-2ce883e6c0b9": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 630,
-					"y": 130
-				},
-				"z": 1,
-				"embeds": []
-			},
-			"f236486a-1383-40dd-abd7-bdcf2cd304ea": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 630,
-					"y": 320
-				},
-				"z": 1,
-				"embeds": []
-			},
-			"b4f0b5d1-e887-47ca-acd0-b6aecf4e5e70": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 630,
-					"y": 410
-				},
-				"z": 1,
-				"embeds": []
-			},
-			"19e3af96-efef-4ffa-8f33-34034b079093": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -120,
-					"y": 440
-				},
-				"z": 1,
-				"embeds": []
-			},
-			"988eaa65-e07b-4c8a-b122-b4ecfd914c38": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 630,
-					"y": 230
-				},
-				"z": 1,
-				"embeds": []
-			},
-			"29f59309-16b5-4651-9eaa-af8f92546b03": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 630,
-					"y": 40
-				},
-				"z": 1,
-				"embeds": []
-			},
-			"daf052f3-2344-4667-b866-d86452968eea": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -120,
-					"y": 170
-				},
-				"z": 1,
-				"embeds": []
-			},
-			"3ccf8004-ed2a-4bf9-b99c-c51e1a030939": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 630,
-					"y": 510
-				},
-				"z": 1,
-				"embeds": []
-			},
-			"6f83a63c-2b80-40ed-8fba-1b080c5336f8": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -200,
-					"y": -10
-				},
-				"z": 1,
-				"embeds": [],
-				"isrelatedto": [
-					"b4f0b5d1-e887-47ca-acd0-b6aecf4e5e70",
-					"988eaa65-e07b-4c8a-b122-b4ecfd914c38",
-					"3ccf8004-ed2a-4bf9-b99c-c51e1a030939"
-				]
-			},
-			"9af7296b-8169-42d8-ba76-8dcb8723ed7d": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 0,
-					"y": 290
-				},
-				"z": 1,
-				"embeds": [],
-				"isrelatedto": [
-					"6f83a63c-2b80-40ed-8fba-1b080c5336f8"
-				]
-			},
-			"c67a892f-9385-451d-8457-2237fbcede54": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -120,
-					"y": 290
-				},
-				"z": 1,
-				"embeds": [],
-				"isrelatedto": [
-					"6f83a63c-2b80-40ed-8fba-1b080c5336f8"
-				]
-			},
-			"185dc998-357e-41cc-89d5-18075c97043c": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 110,
-					"y": 290
-				},
-				"z": 1,
-				"embeds": [],
-				"dependson": [
-					"c67a892f-9385-451d-8457-2237fbcede54",
-					"6f83a63c-2b80-40ed-8fba-1b080c5336f8"
-				],
-				"isrelatedto": [
-					"6f83a63c-2b80-40ed-8fba-1b080c5336f8"
-				]
-			},
-			"288eabd3-a87a-4f84-b259-37825164a720": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 430,
-					"y": -10
-				},
-				"z": 1,
-				"embeds": [],
-				"isrelatedto": [
-					"daf052f3-2344-4667-b866-d86452968eea",
-					"3ccf8004-ed2a-4bf9-b99c-c51e1a030939",
-					"988eaa65-e07b-4c8a-b122-b4ecfd914c38",
-					"b4f0b5d1-e887-47ca-acd0-b6aecf4e5e70",
-					"f236486a-1383-40dd-abd7-bdcf2cd304ea",
-					"5b164754-24d7-47f6-a6fb-2ce883e6c0b9"
-				]
-			},
-			"3913ca91-8fd5-4ce5-9542-0da94c0e9928": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 1150,
-					"y": -20
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"288eabd3-a87a-4f84-b259-37825164a720"
-				],
-				"isrelatedto": [
-					"f236486a-1383-40dd-abd7-bdcf2cd304ea",
-					"5b164754-24d7-47f6-a6fb-2ce883e6c0b9",
-					"988eaa65-e07b-4c8a-b122-b4ecfd914c38"
-				]
-			},
-			"a27df6f0-591b-4c93-af69-ae7ccbf08e2a": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 830,
-					"y": 430
-				},
-				"z": 1,
-				"embeds": [],
-				"dependson": [
-					"f236486a-1383-40dd-abd7-bdcf2cd304ea"
-				],
-				"isrelatedto": [
-					"3913ca91-8fd5-4ce5-9542-0da94c0e9928"
-				]
-			},
-			"3bc4ec4b-c3e4-46c8-b654-91983cc52df8": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -260,
-					"y": 170
-				},
-				"z": 1,
-				"embeds": [],
-				"isrelatedto": [
-					"a27df6f0-591b-4c93-af69-ae7ccbf08e2a"
-				]
-			},
-			"e5c5304e-4277-4d41-bc06-514213d8b15a": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 960,
-					"y": 430
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"a27df6f0-591b-4c93-af69-ae7ccbf08e2a"
-				],
-				"isrelatedto": [
-					"3bc4ec4b-c3e4-46c8-b654-91983cc52df8"
-				]
-			},
-			"139dc7ef-dc15-4e23-92c4-b1be6637d63d": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 960,
-					"y": 320
-				},
-				"z": 1,
-				"embeds": [],
-				"dependson": [
-					"f236486a-1383-40dd-abd7-bdcf2cd304ea"
-				],
-				"isrelatedto": [
-					"3913ca91-8fd5-4ce5-9542-0da94c0e9928"
-				]
-			},
-			"1f821f9f-3f4f-46a4-ad2e-6f0d968cbe1a": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 830,
-					"y": 320
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"139dc7ef-dc15-4e23-92c4-b1be6637d63d"
-				],
-				"isrelatedto": [
-					"f236486a-1383-40dd-abd7-bdcf2cd304ea"
-				]
-			},
-			"4a6ccf43-ae99-40f4-8ce9-2f36e9dc3721": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 960,
-					"y": 230
-				},
-				"z": 1,
-				"embeds": [],
-				"dependson": [
-					"988eaa65-e07b-4c8a-b122-b4ecfd914c38"
-				],
-				"isrelatedto": [
-					"3913ca91-8fd5-4ce5-9542-0da94c0e9928"
-				]
-			},
-			"01aba2d2-519a-4826-9f55-376917fcaddd": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 830,
-					"y": 230
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"4a6ccf43-ae99-40f4-8ce9-2f36e9dc3721"
-				],
-				"isrelatedto": [
-					"988eaa65-e07b-4c8a-b122-b4ecfd914c38"
-				]
-			},
-			"94c0817d-a4e1-4bb9-84bd-dd5c6a1b4fd3": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -290,
-					"y": -10
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"288eabd3-a87a-4f84-b259-37825164a720"
-				]
-			},
-			"42671eb3-c481-43b8-8e45-1ad130906197": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 90,
-					"y": -10
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"288eabd3-a87a-4f84-b259-37825164a720"
-				]
-			},
-			"11639652-02bb-45c1-9e79-74859b0a77e3": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 270,
-					"y": -10
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"288eabd3-a87a-4f84-b259-37825164a720"
-				],
-				"isrelatedto": [
-					"daf052f3-2344-4667-b866-d86452968eea",
-					"988eaa65-e07b-4c8a-b122-b4ecfd914c38",
-					"3ccf8004-ed2a-4bf9-b99c-c51e1a030939",
-					"f236486a-1383-40dd-abd7-bdcf2cd304ea"
-				]
-			},
-			"ffc5466e-cdd4-431d-a817-dffcdda2426c": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": 90,
-					"y": 170
-				},
-				"z": 1,
-				"embeds": [],
-				"dependson": [
-					"daf052f3-2344-4667-b866-d86452968eea",
-					"11639652-02bb-45c1-9e79-74859b0a77e3"
-				],
-				"isrelatedto": [
-					"11639652-02bb-45c1-9e79-74859b0a77e3"
-				]
-			},
-			"3ad35aac-4ae2-4ce5-ae58-9f9eaea5055c": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -10,
-					"y": 170
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"ffc5466e-cdd4-431d-a817-dffcdda2426c"
-				],
-				"dependson": [
-					"daf052f3-2344-4667-b866-d86452968eea",
-					"11639652-02bb-45c1-9e79-74859b0a77e3"
-				],
-				"isrelatedto": [
-					"daf052f3-2344-4667-b866-d86452968eea"
-				]
-			},
-			"0670447b-b9b9-40a2-a9c4-12035bd2a0a4": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -110,
-					"y": -10
-				},
-				"z": 1,
-				"embeds": [],
-				"isassociatedwith": [
-					"288eabd3-a87a-4f84-b259-37825164a720"
-				],
-				"isrelatedto": [
-					"9af7296b-8169-42d8-ba76-8dcb8723ed7d",
-					"19e3af96-efef-4ffa-8f33-34034b079093",
-					"6f83a63c-2b80-40ed-8fba-1b080c5336f8"
-				]
-			},
-			"ca5c9484-1b52-4059-93fa-3f3f2d78914f": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -360,
-					"y": 400
-				},
-				"z": 1,
-				"embeds": [],
-				"isrelatedto": [
-					"0670447b-b9b9-40a2-a9c4-12035bd2a0a4"
-				]
-			},
-			"0ffc9927-0388-44c8-b83e-b242004f6fe5": {
-				"size": {
-					"width": 60,
-					"height": 60
-				},
-				"position": {
-					"x": -360,
-					"y": 510
-				},
-				"z": 1,
-				"embeds": [],
-				"dependson": [
-					"ca5c9484-1b52-4059-93fa-3f3f2d78914f"
-				],
-				"isrelatedto": [
-					"ca5c9484-1b52-4059-93fa-3f3f2d78914f"
-				]
-			}
-		}
-	},
 	"Mappings": {
 		"RegionMap": {
 			"us-west-2": {
@@ -505,22 +31,12 @@
 					"ReadCapacityUnits": "20",
 					"WriteCapacityUnits": "20"
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "3ccf8004-ed2a-4bf9-b99c-c51e1a030939"
-				}
 			}
 		},
 		"LeoKinesisStream": {
 			"Type": "AWS::Kinesis::Stream",
 			"Properties": {
 				"ShardCount": 1
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "daf052f3-2344-4667-b866-d86452968eea"
-				}
 			}
 		},
 		"LeoKinesisStreamProcessor": {
@@ -577,12 +93,7 @@
 			"DependsOn": [
 				"LeoKinesisStream",
 				"LeoKinesisRole"
-			],
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "ffc5466e-cdd4-431d-a817-dffcdda2426c"
-				}
-			}
+			]
 		},
 		"LeoKinesisStreamProcessorEventSource": {
 			"Type": "AWS::Lambda::EventSourceMapping",
@@ -603,12 +114,7 @@
 			"DependsOn": [
 				"LeoKinesisStream",
 				"LeoKinesisRole"
-			],
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "3ad35aac-4ae2-4ce5-ae58-9f9eaea5055c"
-				}
-			}
+			]
 		},
 		"LeoFirehoseStream": {
 			"Type": "AWS::KinesisFirehose::DeliveryStream",
@@ -629,11 +135,6 @@
 							"Arn"
 						]
 					}
-				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "c67a892f-9385-451d-8457-2237fbcede54"
 				}
 			}
 		},
@@ -751,11 +252,6 @@
 						"Arn"
 					]
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "ca5c9484-1b52-4059-93fa-3f3f2d78914f"
-				}
 			}
 		},
 		"LeoInstallRole": {
@@ -825,11 +321,6 @@
 						}]
 					}
 				}]
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "0670447b-b9b9-40a2-a9c4-12035bd2a0a4"
-				}
 			}
 		},
 		"LeoInstall": {
@@ -851,12 +342,7 @@
 			},
 			"DependsOn": [
 				"LeoInstallFunction"
-			],
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "0ffc9927-0388-44c8-b83e-b242004f6fe5"
-				}
-			}
+			]
 		},
 		"LeoArchive": {
 			"Type": "AWS::DynamoDB::Table",
@@ -879,11 +365,6 @@
 					"ReadCapacityUnits": "5",
 					"WriteCapacityUnits": "5"
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "29f59309-16b5-4651-9eaa-af8f92546b03"
-				}
 			}
 		},
 		"LeoEvent": {
@@ -904,11 +385,6 @@
 				"StreamSpecification": {
 					"StreamViewType": "NEW_AND_OLD_IMAGES"
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "988eaa65-e07b-4c8a-b122-b4ecfd914c38"
-				}
 			}
 		},
 		"LeoEventMapping": {
@@ -925,11 +401,6 @@
 				},
 				"FunctionName": {
 					"Ref": "LeoEventTrigger"
-				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "01aba2d2-519a-4826-9f55-376917fcaddd"
 				}
 			}
 		},
@@ -985,12 +456,7 @@
 			},
 			"DependsOn": [
 				"LeoEvent"
-			],
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "4a6ccf43-ae99-40f4-8ce9-2f36e9dc3721"
-				}
-			}
+			]
 		},
 		"LeoBotPolicy": {
 			"Type": "AWS::IAM::ManagedPolicy",
@@ -1146,11 +612,6 @@
 						}]
 					}]
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "288eabd3-a87a-4f84-b259-37825164a720"
-				}
 			}
 		},
 		"LeoKinesisRole": {
@@ -1238,11 +699,6 @@
 						}]
 					}
 				}]
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "11639652-02bb-45c1-9e79-74859b0a77e3"
-				}
 			}
 		},
 		"LeoBotRole": {
@@ -1271,11 +727,6 @@
 					}
 				],
 				"Policies": []
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "42671eb3-c481-43b8-8e45-1ad130906197"
-				}
 			}
 		},
 		"LeoS3LoadTrigger": {
@@ -1328,21 +779,11 @@
 						"Arn"
 					]
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "9af7296b-8169-42d8-ba76-8dcb8723ed7d"
-				}
 			}
 		},
 		"LeoS3": {
 			"Type": "AWS::S3::Bucket",
-			"Properties": {},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "19e3af96-efef-4ffa-8f33-34034b079093"
-				}
-			}
+			"Properties": {}
 		},
 		"LeoFirehoseRole": {
 			"Type": "AWS::IAM::Role",
@@ -1428,11 +869,6 @@
 						}]
 					}
 				}]
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "6f83a63c-2b80-40ed-8fba-1b080c5336f8"
-				}
 			}
 		},
 		"LeoSettings": {
@@ -1450,11 +886,6 @@
 					"ReadCapacityUnits": "5",
 					"WriteCapacityUnits": "5"
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "b4f0b5d1-e887-47ca-acd0-b6aecf4e5e70"
-				}
 			}
 		},
 		"LeoDeveloperGroup": {
@@ -1464,11 +895,6 @@
 					"Ref": "LeoBotPolicy"
 				}],
 				"Policies": []
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "94c0817d-a4e1-4bb9-84bd-dd5c6a1b4fd3"
-				}
 			}
 		},
 		"LeoCronRole": {
@@ -1546,11 +972,6 @@
 						}]
 					}
 				}]
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "3913ca91-8fd5-4ce5-9542-0da94c0e9928"
-				}
 			}
 		},
 		"LeoCron": {
@@ -1571,11 +992,6 @@
 				"StreamSpecification": {
 					"StreamViewType": "NEW_AND_OLD_IMAGES"
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "f236486a-1383-40dd-abd7-bdcf2cd304ea"
-				}
 			}
 		},
 		"LeoCronMapping": {
@@ -1592,11 +1008,6 @@
 				},
 				"FunctionName": {
 					"Ref": "LeoCronProcessor"
-				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "1f821f9f-3f4f-46a4-ad2e-6f0d968cbe1a"
 				}
 			}
 		},
@@ -1652,12 +1063,7 @@
 			},
 			"DependsOn": [
 				"LeoCron"
-			],
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "139dc7ef-dc15-4e23-92c4-b1be6637d63d"
-				}
-			}
+			]
 		},
 		"LeoCronScheduler": {
 			"Type": "AWS::Lambda::Function",
@@ -1711,12 +1117,7 @@
 			},
 			"DependsOn": [
 				"LeoCron"
-			],
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "a27df6f0-591b-4c93-af69-ae7ccbf08e2a"
-				}
-			}
+			]
 		},
 		"LeoSystem": {
 			"Type": "AWS::DynamoDB::Table",
@@ -1736,11 +1137,6 @@
 				"StreamSpecification": {
 					"StreamViewType": "NEW_AND_OLD_IMAGES"
 				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "5b164754-24d7-47f6-a6fb-2ce883e6c0b9"
-				}
 			}
 		},
 		"LeoCronSchedulerRule": {
@@ -1758,11 +1154,6 @@
 					},
 					"Id": "LeoCronSchedulerRule"
 				}]
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "3bc4ec4b-c3e4-46c8-b654-91983cc52df8"
-				}
 			}
 		},
 		"PermissionForLeoCronSchedulerRule": {
@@ -1778,11 +1169,6 @@
 						"LeoCronSchedulerRule",
 						"Arn"
 					]
-				}
-			},
-			"Metadata": {
-				"AWS::CloudFormation::Designer": {
-					"id": "e5c5304e-4277-4d41-bc06-514213d8b15a"
 				}
 			}
 		}
