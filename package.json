@@ -21,9 +21,7 @@
     "url": "https://github.com/LeoPlatform/bus/issues"
   },
   "homepage": "https://github.com/LeoPlatform/bus#readme",
-  "dependencies": {
-    "leo-sdk": "file:../sdks/nodejs"
-  },
+  "dependencies": {},
   "config": {
     "leo": {
       "type": "package",
